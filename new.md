@@ -50,7 +50,39 @@
    
    `git commit -m "测试gitbash"`
 
+   [master c7e57a3] 测试gitbash
+    1 file changed, 55 insertions(+), 12 deletions(-)
+
    `git push -u renmeng master`
+
+   Enumerating objects: 6, done.
+
+   Counting objects: 100% (6/6), done.
+
+   Delta compression using up to 8 threads
+
+   Compressing objects: 100% (4/4), done.
+
+   Writing objects: 100% (6/6), 1.48 KiB | 1.48 MiB/s, done.
+
+   Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+
+   remote: Resolving deltas: 100% (1/1), done.
+
+   remote:
+
+   remote: Create a pull request for 'master' on GitHub by visiting:
+   
+   remote:      https://github.com/Mousikar/machine-vision/pull/new/master
+   
+   remote:
+   
+   To github.com:Mousikar/machine-vision.git
+
+   * [new branch]      master -> master
+   
+   branch 'master' set up to track 'renmeng/master'.
+
 
 ### 解决报错：
 git@github.com: Permission denied (publickey).
